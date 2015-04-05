@@ -1,0 +1,13 @@
+---------- PRESENTATION ----------
+
+
+Bonjour,
+
+Ce git a été créé uniquement pour prouver que je remplis
+bien les demandes exigées par l'activitée de la partie 2
+du cours sur Git & GitHub du site OpenClassRoom.
+
+j'ai fais plusieurs ajout, mais je viens de me rendre compte 
+que je n'ai fait aucune mofi pour le moment.
+
+Ce sera donc la première modification.
