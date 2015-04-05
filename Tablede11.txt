@@ -1,0 +1,86 @@
+---------- Multiplication par 11 ----------
+
+
+Pour multiplier un chiffre par 11 (onze) de tête,
+Vous devez simplement attribuer le premier de vos chiffres 
+au premier 1 de onze et le deuxième au deuxième, et mettre
+la somme du chiffre séparé au milieu.
+
+Explication : 
+
+Multiplions 6 par onze : 	6 x 11 =
+	6 (premier 1) -> 6-6 <- 6 (deuxième 1)
+			soit 66
+	Ici, vu qu'il n'y a qu'un chiffre à multiplier
+	on l'attibue aux deux 1.
+
+Multiplions 34 par onze :	34 x 11 =
+	3 (premier 1) -> 3-7(la somme de 3 + 4)- 4 (deuxième 1)
+			soit 374
+	Nous avons attribué les premiers et dernier chiffres aux
+	extrémités et les avons additionnés pour le mettre aussi au milieu.
+
+	De la même manière, 54 x 11 = ferait 5-(5+4)-4 = 594
+
+	Dans le cas où la somme engendre une retenue, cette retenue 
+	va s'ajouter au chiffre à gauche.
+	exemples : 
+	87 x 11 => 8-(8+7)-7 => 8-(15)-7 => (8+1)-5-7 => 9-5-7 => 957
+	87 x 11 = 957
+	ou encore 
+	99 x 11 => 9-(9+9)-9 => 9-(18)-9 => (9+1)-8-9 => (10)-8-9 => 1-0-8-9 => 1089
+	99 x 11 = 1089
+
+Là, c'était simple, commençons maintenant les vraies difficultés (^_^)
+
+Multiplions 423 par onze :	423 x 11 =
+	4-(42+23)-3 => 4-(65)-3 => 4653
+	423 x 11 = 4653
+	Vous voyez que ici, nous avons pris tous les chiffres sauf le dernier
+	pour les ajouter à tous les chiffres sauf le premier.
+
+	Encore une fois, si nous tombons sur une retenue, nous l'ajouterons
+	au chiffre au chiffre de gauche.
+	Exemples :
+
+	865 x 11 = 
+	8-(86+65)-5 => 8-(151)-5 => (8+1)-51-5 => 9-51-5 => 9515
+	865 x 11 = 9515 
+
+	999 x 11 = 
+	9-(99+99)-9 => 9-(198)-9 => (9+1)-98-9 => (10)-98-9 => 1-0-98-9 => 10989
+	999 x 11 = 10989
+
+Multiplions 1234 par  onze :	1234 x 11 =
+
+	1-(123+234)-4 => 1-(357)-4 = 13574
+	1234 x 11 = 13574
+
+	Encore une fois, le centre est constitué de tout sauf le dernier 
+	plus tout sauf le premier.
+	Là encore la retenue va à gauche.
+	Exemples :
+
+	7568 x 11 =
+	7-(756+568)-8 => 7-(1324)-8 => (7+1)-324-8 => 8-324-8 => 83248
+	7568 x 11 = 83248
+
+	9999 x 11 =
+	9-(999+999)-9 => 9-(1998)-9 => (9+1)-998-9 => (10)-998-9 => 1-0-998-9 
+	=>109989
+	9999 x 11 = 109989
+
+			Vous pouvez vérifier sur vos calculettes !
+
+Petit aide mémoire : pour savoir si il y a une retenue à passer à gauche,
+	rappelez-vous simplement que le milieu est constitué d'un chiffre de 
+	moins que celui que vous multipliez : 
+	222 x 11 = 2-44-2
+	2222 x 11 = 2-444-2
+	22222 x 11 = 2-4444-2
+	... et ainsi de suite.
+	Donc si votre addition du milieu à autant de chiffres que le multiplicateur
+	c'est qu'il y a une retenue à placer à gauche.
+
+
+	ENJOY ! ^_^
